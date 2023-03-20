@@ -25,7 +25,7 @@
                 counter++;
             }
             Console.WriteLine(  );
-            Console.WriteLine($"Count number is:{counter}");
+            Console.WriteLine($"Count number is: {counter}.");
         }
 
     }
