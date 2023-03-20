@@ -4,28 +4,32 @@
     {
         static void Main(string[] args)
         {
-            PrintTriangle(10);
+            Console.WriteLine("Input number");
+            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine("Input character");
+            string ch = Console.ReadLine();
+            PrintTriangle(num,ch);
         }
 
-        static void PrintLine(int start, int end)
+        static void PrintLine(int start, int end, string ch)
         {
-            for (int i = 0; i < end; i++)
+            for (int i = 1; i <= end; i++)
             {
-                Console.Write($"{i} ");
+                Console.Write($"{ch} ");
             }
             Console.WriteLine();
         }
 
-        static void PrintTriangle(int n)
+        static void PrintTriangle(int n, string ch)
         {
-            for (int i = 1; i < n; i++)
+            for (int i = 1; i <= n; i++)
             {
-                PrintLine(1, i);
+                PrintLine(1, i, ch);
             }
 
             for (int i = n - 1; i >= 1; i--)
             {
-                PrintLine(1,i-1);
+                PrintLine(1, i, ch);
             }
         }
 

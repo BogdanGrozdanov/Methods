@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultValues", "..\Default
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintTriangle", "..\PrintTriangle\PrintTriangle.csproj", "{BE535445-9AF8-4A2D-8A93-C8B5C0B5348C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeek", "..\DayOfWeek\DayOfWeek.csproj", "{F3A26BF7-F93B-44D7-B17C-6A8702B11D86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BE535445-9AF8-4A2D-8A93-C8B5C0B5348C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE535445-9AF8-4A2D-8A93-C8B5C0B5348C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE535445-9AF8-4A2D-8A93-C8B5C0B5348C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A26BF7-F93B-44D7-B17C-6A8702B11D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A26BF7-F93B-44D7-B17C-6A8702B11D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A26BF7-F93B-44D7-B17C-6A8702B11D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A26BF7-F93B-44D7-B17C-6A8702B11D86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
