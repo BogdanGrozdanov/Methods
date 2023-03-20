@@ -10,7 +10,7 @@
             int end = int.Parse(Console.ReadLine());
             PrintNumber(start, end);
         }
-        static void PrintNumber(int start,int end) 
+        static void PrintNumber(int start =0,int end = 100) 
         {
             int counter = 0;
             for (int i = start; i <= end; i++)
@@ -24,7 +24,8 @@
 
                 counter++;
             }
-            Console.WriteLine($"Count of number is : {counter}");
+            Console.WriteLine( );
+            Console.Write($"Count of number is : {counter}");
         }
 
     }
