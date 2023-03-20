@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintTriangle", "..\PrintTr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeek", "..\DayOfWeek\DayOfWeek.csproj", "{F3A26BF7-F93B-44D7-B17C-6A8702B11D86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatString", "..\RepeatString\RepeatString.csproj", "{BAD289A2-20A3-4D57-ACD5-2250DC7AA47A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F3A26BF7-F93B-44D7-B17C-6A8702B11D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3A26BF7-F93B-44D7-B17C-6A8702B11D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3A26BF7-F93B-44D7-B17C-6A8702B11D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD289A2-20A3-4D57-ACD5-2250DC7AA47A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD289A2-20A3-4D57-ACD5-2250DC7AA47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD289A2-20A3-4D57-ACD5-2250DC7AA47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD289A2-20A3-4D57-ACD5-2250DC7AA47A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
