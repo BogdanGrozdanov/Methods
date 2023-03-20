@@ -8,6 +8,7 @@
             int num = int.Parse(Console.ReadLine());
             Console.WriteLine("Input character");
             string ch = Console.ReadLine();
+            Console.WriteLine();
             PrintTriangle(num,ch);
         }
 
