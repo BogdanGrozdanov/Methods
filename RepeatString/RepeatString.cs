@@ -1,5 +1,4 @@
-﻿using System.Timers;
-using Timer = System.Timers.Timer;
+﻿using System.Text;
 
 namespace RepeatString
 {
@@ -15,16 +14,16 @@ namespace RepeatString
             PrintString(text, num);
         }
 
-        public static void PrintString(string text, int num)
+        private static string PrintString(string text, int num)
         {
-            string result = string.Empty;
+            StringBuilder result = new StringBuilder();
 
             for (int i = 0; i < num; i++)
             {
-                result += text;
+                result.Append(text);
             }
 
-            Console.WriteLine(result);
+            return result.ToString();
         }
     }
 }
