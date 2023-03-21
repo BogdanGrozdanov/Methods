@@ -1,4 +1,7 @@
-﻿namespace RepeatString
+﻿using System.Timers;
+using Timer = System.Timers.Timer;
+
+namespace RepeatString
 {
     internal class RepeatString
     {
