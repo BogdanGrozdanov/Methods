@@ -23,7 +23,7 @@ namespace RepeatString
                 result.Append(text);
             }
 
-            return result.ToString();
+            return result.ToString(); 
         }
     }
 }
