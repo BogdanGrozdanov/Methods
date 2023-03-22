@@ -10,8 +10,8 @@ namespace RepeatString
             string text = Console.ReadLine();
             Console.WriteLine("Input number repeat");
             int num = int.Parse(Console.ReadLine());
-
-            PrintString(text, num);
+            string result = PrintString(text, num);
+            Console.WriteLine(result);
         }
 
         private static string PrintString(string text, int num)
@@ -23,7 +23,7 @@ namespace RepeatString
                 result.Append(text);
             }
 
-            return result.ToString(); 
+            return result.ToString();
         }
     }
 }
