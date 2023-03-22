@@ -1,4 +1,5 @@
-﻿namespace Orders
+﻿
+namespace Orders
 {
     internal class Orders
     {
@@ -7,32 +8,35 @@
             Console.WriteLine("Input : coffe,water,coke or snacks");
             string order = Console.ReadLine().ToLower();
             Console.WriteLine("Quantity :");
-            double quantity = int.Parse(Console.ReadLine());
+            double quantity = double.Parse(Console.ReadLine());
 
-            if (order == "coffee") { Console.WriteLine(Coffee(quantity)); ; }
+            if (order == "coffee") { Coffee(quantity); }
+            else if (order == "water") { Water(quantity); }
+            else if (order == "coke") { Coke(quantity); }
+            else if (order == "snacks") { Snacks(quantity); }
 
 
 
         }
-       static private double Coffee(double quantity)
+        static void Coffee(double quantity)
         {
             double totalPrice = quantity * 1.5;
-            return totalPrice;
+            Console.WriteLine($"{totalPrice:F2}");
         }
-        static void Water(int quantity)
+        static void Water(double quantity)
         {
             double totalPrice = quantity * 1.00;
-            Console.WriteLine(quantity);
+            Console.WriteLine($"{totalPrice:F2}");
         }
-        static void Coke(int quantity)
+        static void Coke(double quantity)
         {
             double totalPrice = quantity * 1.40;
-            Console.WriteLine(quantity);
+            Console.WriteLine($"{totalPrice:F2}");
         }
-        static void Snacks(int quantity)
+        static void Snacks(double quantity)
         {
             double totalPrice = quantity * 2.00;
-            Console.WriteLine(quantity);
+            Console.WriteLine($"{totalPrice:F2}");
         }
     }
 }
