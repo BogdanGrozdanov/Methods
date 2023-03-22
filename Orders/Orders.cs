@@ -16,7 +16,6 @@ namespace Orders
             else if (order == "snacks") { Snacks(quantity); }
 
 
-
         }
         static void Coffee(double quantity)
         {
