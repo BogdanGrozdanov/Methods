@@ -1,6 +1,6 @@
 ﻿namespace GreaterOfTwoValues
 {
-    internal class Program
+    internal class GreaterOfTwoValues
     {
         static void Main(string[] args)
         {
