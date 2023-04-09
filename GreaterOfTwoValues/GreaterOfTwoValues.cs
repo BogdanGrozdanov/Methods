@@ -26,12 +26,14 @@
                 result = (Math.Max(firstValue, secondValue)).ToString();
             }
             else if (typeValue == "char")
-            { 
-                //char firstChar=char.Parse(value1);
-                //char secondChar=char.Parse(value2);
-                //result =Char.GetNumericValue(value1)
+            {
+               
+                char firstChar = char.Parse(value1);
+                char secondChar = char.Parse(value2);
+                if ( firstChar > secondChar ) { result = firstChar.ToString(); }
+                else { result = secondChar.ToString(); }
             }
-            return result.ToString();
+            return result;
         }
     }
 }
