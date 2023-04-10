@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Input number : ");
+            int number =int.Parse(Console.ReadLine());
+            GetSumOfEvenDigits(number);
+        }
+
+        private static int GetSumOfEvenDigits(int number)
+        {
+            var result = 0;
+
+
+            return result;
         }
     }
 }
